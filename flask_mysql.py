@@ -15,6 +15,8 @@ def getFibonacciValueData():
     robotOrderData = cur2.fetchall()
 
 
+
+
     return render_template('index.html', robotorder=robotOrderData)
 
 
